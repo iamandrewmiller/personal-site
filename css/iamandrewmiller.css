@@ -1,0 +1,687 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Bitter, serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  font-family: Bitter, serif;
+  color: white;
+  line-height: 24px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.button.sliderbtn {
+  padding: 10px 20px;
+  background: #f4efc8;
+  background: linear-gradient(to right, #f4efc8 50%, #222 50%);
+  background-size: 210% 100%;
+  background-position:left bottom;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Bitter, serif;
+  color: black;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.button.sliderbtn:hover {
+  background-position:right bottom;
+  color: white;
+}
+.button.worktilebtn {
+  border: 1px solid white;
+  background-color: transparent;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.button.worktilebtn:hover {
+  border-style: solid;
+  border-color: black;
+  background-color: black;
+}
+.button.workcaptionbutton {
+  display: block;
+  width: 180px;
+  margin: 50px auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  border: 1px solid black;
+  background-color: transparent;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Bitter, serif;
+  color: black;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.button.workcaptionbutton:hover {
+  background-color: black;
+  color: white;
+}
+.homeslider {
+  height: auto;
+}
+.header {
+  height: auto;
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.logo {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url('../images/andrew_website_logo-06.svg');
+  background-position: 0px 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.navlinks {
+  margin: 10px 25px;
+  padding: 12px 0px;
+  border-bottom: 0px solid black;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.navlinks:hover {
+  border-bottom: 2px solid black;
+}
+.navlinks.w--current {
+  color: #666;
+}
+.menu {
+  margin-top: 14px;
+}
+.logotext {
+  margin-right: 76px;
+  margin-left: 76px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 0px solid black;
+  font-family: Bitter, serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.logotext:hover {
+  border-bottom: 0px none black;
+}
+.slide1 {
+  height: auto;
+  background-image: url('../images/andrew_website_homeslider01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tag {
+  font-family: Bitter, serif;
+  color: white;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.andrewhr {
+  width: 60px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+.andrewhr.blackhr {
+  border-bottom-color: black;
+}
+.slidertext {
+  height: 350px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.sliderheadline {
+  font-family: Raleway, sans-serif;
+  color: white;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.sliderdesc {
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.aboutsection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.abouttext {
+  margin-bottom: 20px;
+  font-family: Bitter, serif;
+  font-size: 24px;
+  line-height: 46px;
+  font-weight: 400;
+}
+.homecontainter {
+  padding-right: 75px;
+  padding-left: 75px;
+}
+.homesectionheader {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.aboutsectionlink {
+  border-bottom: 1px solid #666;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #666;
+  text-decoration: none;
+}
+.aboutsectionlink:hover {
+  border-bottom-width: 2px;
+}
+.sectionhr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+.contacttext {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 14px;
+  line-height: 30px;
+}
+.contactfield {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-width: 0px 0px 1px;
+  border-bottom-style: solid;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Bitter, serif;
+  color: rgba(0, 0, 0, 0.24);
+  font-size: 14px;
+  font-style: italic;
+  text-transform: none;
+}
+.contactfield:focus {
+  border-bottom-width: 1px;
+  color: black;
+  font-style: italic;
+}
+.contactbtn {
+  display: block;
+  margin: 40px auto;
+  padding: 10px 40px;
+  border: 1px solid black;
+  background-color: transparent;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Bitter, serif;
+  color: black;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contactbtn:hover {
+  border-color: #f4efc8;
+  background-color: #f4efc8;
+}
+.slide2 {
+  background-image: url('../images/andrew_website_homeslider02.jpg');
+  background-size: cover;
+}
+.slide3 {
+  background-image: url('../images/andrew_website_homeslider03.jpg');
+  background-size: cover;
+}
+.invisible {
+  display: block;
+  height: 1px;
+}
+.slide4 {
+  background-image: url('../images/andrew_website_homeslider04.jpg');
+  background-size: cover;
+}
+.mobilefeatured {
+  display: none;
+}
+.mobileslide1 {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider01.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider01.jpg');
+  background-position: 0% 0%, 0px 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, scroll;
+}
+.mobilefeaturedcontainer {
+  padding: 100px 20px;
+}
+.mobileslide2 {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider02.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider02.jpg');
+  background-position: 0% 0%, 0px 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+.mobileslide3 {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider03.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider03.jpg');
+  background-size: auto, cover;
+}
+.slide5 {
+  background-image: url('../images/andrew_website_homeslider05.jpg');
+  background-position: 0px 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide6 {
+  background-image: url('../images/andrew_website_homeslider06.jpg');
+  background-position: 0px 50%;
+  background-size: cover;
+}
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #041f2c;
+}
+.footertext {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  margin-right: 20px;
+  float: left;
+  font-family: Bitter, serif;
+  color: white;
+  font-size: 24px;
+  font-style: italic;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+.twitterfollow {
+  display: inline-block;
+  float: left;
+}
+.copyright {
+  display: inline-block;
+  float: right;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: right;
+}
+.workportfolio {
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+.worktileheadline {
+  height: 100px;
+  margin-bottom: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-style: normal;
+}
+.worktilehr {
+  display: block;
+  width: 50px;
+  height: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+.mobileslide4 {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider05.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider05.jpg');
+  background-position: 0% 0%, 0px 0px;
+  background-size: auto, cover;
+}
+.mobileslide5 {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider04.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider04.jpg');
+  background-size: auto, cover;
+}
+.mobileslide6 {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider06.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider06.jpg');
+  background-position: 0% 0%, 0px 0px;
+  background-size: auto, cover;
+}
+.mobileslide7 {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider07.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider07.jpg');
+  background-size: auto, cover;
+}
+.mobileslide8 {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider08.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider08.jpg');
+  background-size: auto, cover;
+}
+.sliderarrow {
+  width: 40px;
+  height: 40px;
+  padding: 8px 5px;
+  background-color: rgba(0, 0, 0, 0.54);
+  font-size: 24px;
+}
+.date {
+  position: relative;
+  left: 145px;
+  top: 35px;
+  display: inline-block;
+  float: left;
+  font-family: Bitter, serif;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.caption {
+  position: relative;
+  left: 256px;
+  display: inline-block;
+  width: 68%;
+  color: black;
+}
+.captionh1 {
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.workcaption {
+  margin-bottom: 20px;
+  color: black;
+}
+.captioncontainer {
+  padding-bottom: 20px;
+}
+.portfolioimages {
+  display: block;
+  margin: 20px auto;
+}
+html.w-mod-js *[data-ix="slider-text-animate"] {
+  opacity: 0;
+  -webkit-transform: translate(50px, 0px);
+  -ms-transform: translate(50px, 0px);
+  transform: translate(50px, 0px);
+}
+@media (max-width: 991px) {
+  h4 {
+    font-size: 16px;
+  }
+  .navlinks {
+    color: white;
+  }
+  .navlinks:hover {
+    border-bottom-style: none;
+    color: #ddd;
+  }
+  .mobile-nav-bar-button {
+    margin-top: 0px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+  .slidertext {
+    padding-right: 10px;
+  }
+  .sliderheadline {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .sliderdesc {
+    height: 120px;
+  }
+  .footertext {
+    display: inline-block;
+  }
+  .slidertextcontainer {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .twitterfollow {
+    display: none;
+  }
+  .copyright {
+    margin-top: 0px;
+    float: none;
+  }
+  .mobilenav {
+    background-color: black;
+  }
+  .date {
+    position: relative;
+    left: 40px;
+    top: 53px;
+    display: none;
+    float: left;
+  }
+  .caption {
+    position: relative;
+    left: 0px;
+    float: none;
+  }
+  .captionh1 {
+    margin-top: 0px;
+  }
+  .captioncontainer {
+    padding-left: 33px;
+  }
+}
+@media (max-width: 767px) {
+  h4 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .button.sliderbtn {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+  }
+  .button.workcaptionbutton {
+    display: block;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .homeslider {
+    display: none;
+  }
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .logo {
+    margin-left: 6px;
+  }
+  .tag {
+    text-align: center;
+  }
+  .andrewhr {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .sliderheadline {
+    margin-bottom: 50px;
+    line-height: 36px;
+    font-style: normal;
+  }
+  .homesectionheader {
+    text-align: center;
+  }
+  .mobilefeatured {
+    display: block;
+  }
+  .mobileslide1 {
+    background-position: 0% 0%, 0px 50%;
+  }
+  .mobilefeaturedcontainer {
+    padding: 120px 50px;
+  }
+  .mobileslide3 {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider03.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider03.jpg');
+    background-position: 0% 0%, 0px 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+  .twitterfollow {
+    width: 160px;
+  }
+  .caption {
+    width: 100%;
+  }
+  .captionh1 {
+    text-align: center;
+  }
+  .captioncontainer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .portfolioimages {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 479px) {
+  h4 {
+    font-size: 12px;
+  }
+  .button.sliderbtn {
+    font-size: 12px;
+  }
+  .logo {
+    width: auto;
+    padding-left: 8px;
+  }
+  .logotext {
+    display: block;
+    margin-right: 0px;
+    margin-left: 49px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 13px;
+  }
+  .mobile-nav-bar-button {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .tag {
+    display: block;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .sliderheadline {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .abouttext {
+    font-size: 18px;
+    line-height: 33px;
+  }
+  .homecontainter {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .mobilefeaturedcontainer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .mobileslide3 {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider03.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider03.jpg');
+    background-position: 0% 0%, 0px 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+  .footertext {
+    margin-right: 0px;
+    text-align: left;
+    font-size: 18px;
+  }
+  .twitterfollow {
+    margin-top: 20px;
+    display: none;
+  }
+  .copyright {
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+}
+
