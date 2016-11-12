@@ -337,11 +337,6 @@ p {
   background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider03.jpg');
   background-size: auto, cover;
 }
-.mobileslide4 {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider08.png');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../images/andrew_website_homeslider08.png');
-  background-size: auto, cover;
-}
 .slide5 {
   background-image: url('../images/andrew_website_homeslider05.jpg');
   background-position: 0px 50%;
